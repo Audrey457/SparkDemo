@@ -1,4 +1,5 @@
 from pyspark.sql import *
+from pyspark.sql.functions import spark_partition_id
 from pyspark.sql.types import *
 
 from lib.logger import Log4J
@@ -11,6 +12,9 @@ if __name__ == "__main__":
         .getOrCreate()
 
     logger = Log4J(spark)
+
+
+    # Reading Data
 
     flightSchemaStruct = StructType([
         StructField("FL_DATE", DateType()),
@@ -48,3 +52,25 @@ if __name__ == "__main__":
     flightTimeParquetDF = get_raw_df_from_parquet(spark, "data/flight*.parquet")
     flightTimeParquetDF.show(5)
     logger.info("parquet schema: " + flightTimeParquetDF.schema.simpleString())
+
+    # Writing Data
+    logger.info("Num partitions before: " + str(flightTimeParquetDF.rdd.getNumPartitions()))
+    flightTimeParquetDF.groupBy(spark_partition_id()).count().show()
+
+    partitionedDF = flightTimeParquetDF.repartition(5)
+    logger.info("Num partitions after: " + str(partitionedDF.rdd.getNumPartitions()))
+    partitionedDF.groupBy(spark_partition_id()).count().show()
+
+    # partitionedDF.write \
+    #     .format("avro") \
+    #     .mode("overwrite") \
+    #     .option("path", "dataSink/avro/") \
+    #     .save()
+
+    flightTimeParquetDF.write \
+        .format("json") \
+        .mode("overwrite") \
+        .option("path", "dataSink/json/") \
+        .partitionBy("OP_CARRIER", "ORIGIN") \
+        .option("maxRecordsPerFile", 10000) \
+        .save()
