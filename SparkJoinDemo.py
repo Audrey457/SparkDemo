@@ -1,4 +1,5 @@
-from pyspark.sql import SparkSession
+from pyspark.sql import *
+from pyspark.sql.functions import *
 
 from lib.logger import Log4J
 
@@ -46,4 +47,13 @@ if __name__ == "__main__":
     order_df.join(product_renamed_df, join_expr, "inner") \
         .drop(product_renamed_df.prod_id) \
         .select("order_id", "prod_id", "prod_name", "unit_price", "list_price", "qty") \
+        .show()
+
+    #Outer join (outer / left / right) example
+    order_df.join(product_renamed_df, join_expr, "left") \
+        .drop(product_renamed_df.prod_id) \
+        .withColumn("prod_name", expr("coalesce(prod_name, prod_id)")) \
+        .withColumn("list_price", expr("coalesce(list_price, unit_price)")) \
+        .sort("order_id") \
+        .select("*") \
         .show()

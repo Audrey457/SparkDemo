@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b8b779a-6607-4413-a0dd-18b5c0b63fbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SparkJoinDemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkJoinDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/SparkJoinDemo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
     "Python.AggDemo.executor": "Run",
     "Python.LogFileDemo.executor": "Run",
     "Python.MiscDemo.executor": "Run",
+    "Python.SparkJoinDemo.executor": "Run",
     "Python.SparkSQLTableDemo.executor": "Run",
     "Python.SparkSchemaDemo.executor": "Run",
     "Python.UDFDemo.executor": "Run",
