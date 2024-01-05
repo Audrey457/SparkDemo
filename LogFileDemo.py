@@ -1,8 +1,5 @@
 from pyspark.sql import *
-from pyspark.sql.functions import *
-from pyspark.sql.types import *
 
-from lib.logger import Log4J
 from lib.utils import *
 
 if __name__ == "__main__":
