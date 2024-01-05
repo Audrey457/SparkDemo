@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b8b779a-6607-4413-a0dd-18b5c0b63fbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RowDemoTestCase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogFileDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/apache_logs.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark.conf" beforeDir="false" afterPath="$PROJECT_DIR$/spark.conf" afterDir="false" />
     </list>
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -43,16 +43,39 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/310616706/PycharmProjects/SparkSchemaDemo"
+    "last_opened_file_path": "C:/Users/310616706/PycharmProjects/SparkSchemaDemo/data"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\310616706\PycharmProjects\SparkSchemaDemo\data" />
       <recent name="C:\Users\310616706\PycharmProjects\SparkSchemaDemo" />
       <recent name="C:\Users\310616706\PycharmProjects\SparkSchemaDemo\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for RowDemoTestCase.RowDemoTestCase">
+  <component name="RunManager" selected="Python.LogFileDemo">
+    <configuration name="LogFileDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SparkDemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LogFileDemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SparkSQLTableDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SparkDemo" />
       <option name="ENV_FILES" value="" />
@@ -216,6 +239,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LogFileDemo" />
         <item itemvalue="Python tests.Python tests for RowDemoTestCase.RowDemoTestCase" />
         <item itemvalue="Python.SparkSQLTableDemo" />
         <item itemvalue="Python.SparkSchemaDemo" />
