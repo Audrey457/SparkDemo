@@ -68,3 +68,11 @@ if __name__ == "__main__":
              InvoiceValue)
 
     exercice_df.orderBy("Country", "WeekNumber").show()
+
+    #Write the result
+    exercice_df.coalesce(1)\
+        .write\
+        .format("parquet")\
+        .mode("overwrite")\
+        .save("output")
+

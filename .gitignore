@@ -290,3 +290,4 @@ pyrightconfig.json
 /dataSink
 /metastore_db
 /spark-warehouse
+/output
