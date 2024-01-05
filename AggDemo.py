@@ -1,5 +1,4 @@
 from pyspark.sql import *
-from pyspark.sql.types import *
 from pyspark.sql import functions as f
 
 from lib.logger import Log4J
