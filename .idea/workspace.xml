@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b8b779a-6607-4413-a0dd-18b5c0b63fbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ShuffleJoinDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BucketJoinDemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,24 +33,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for RowDemoTestCase.RowDemoTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AggDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LogFileDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MiscDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ShuffleJoinDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SparkJoinDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SparkSQLTableDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SparkSchemaDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UDFDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WindowingDemo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/310616706/PycharmProjects/SparkSchemaDemo&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for RowDemoTestCase.RowDemoTestCase.executor": "Run",
+    "Python.AggDemo.executor": "Run",
+    "Python.BucketJoinDemo.executor": "Run",
+    "Python.LogFileDemo.executor": "Run",
+    "Python.MiscDemo.executor": "Run",
+    "Python.ShuffleJoinDemo.executor": "Run",
+    "Python.SparkJoinDemo.executor": "Run",
+    "Python.SparkSQLTableDemo.executor": "Run",
+    "Python.SparkSchemaDemo.executor": "Run",
+    "Python.UDFDemo.executor": "Run",
+    "Python.WindowingDemo.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/310616706/PycharmProjects/SparkSchemaDemo"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\310616706\PycharmProjects\SparkSchemaDemo" />
@@ -58,7 +59,7 @@
       <recent name="C:\Users\310616706\PycharmProjects\SparkSchemaDemo\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ShuffleJoinDemo">
+  <component name="RunManager" selected="Python.BucketJoinDemo">
     <configuration name="AggDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SparkDemo" />
       <option name="ENV_FILES" value="" />
@@ -81,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MiscDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BucketJoinDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SparkDemo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,7 +95,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MiscDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BucketJoinDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BucketJoinDemo" />
         <item itemvalue="Python.ShuffleJoinDemo" />
         <item itemvalue="Python.SparkJoinDemo" />
         <item itemvalue="Python.WindowingDemo" />
         <item itemvalue="Python.AggDemo" />
-        <item itemvalue="Python.MiscDemo" />
       </list>
     </recent_temporary>
   </component>
